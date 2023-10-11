@@ -1,0 +1,158 @@
+1)Задача «Длина отрезка»
+
+def distance(*args):
+    print(args)
+    x1 = args[0]
+    y1 = args[1]
+    x2 = args[2]
+    y2 = args[3] 
+    dst = ((y2 - y1) ** 2 + (x2 - x1) ** 2) ** 0.5
+    return dst
+
+#  x1 = int(input())
+#  y1 = int(input())
+#  x2 = int(input())
+#  y2 = int(input())
+
+res = distance(int(input()), int(input()), int(input()), int(input()))
+print(res)
+
+
+2)Задача «Отрицательная степень»
+
+def power(chislo, stepen):
+    res = 1
+    if stepen>0
+         for i in range(stepen):
+             res = res * chislo
+    elif
+         for i in range(stepen):
+             res = res / chislo
+    return res
+
+a = float(input()) # 2.5
+n = int(input()) #3
+print(power(a,n))
+
+
+
+3)Задача «Числа Фибоначчи»
+
+def fib(n):
+  if n <= 1:
+    return n
+  else:
+    return fib(n - 1) + fib(n - 2)
+print(fib(10))
+
+
+4)Високосный год 
+
+def is_year_leap(year):
+    if year % 4 == 0:
+        return True
+    else:
+        False
+    if year % 100 == 0:
+        return True
+    else:
+        False
+    if year % 400 == 0:
+        return True
+    else:
+        False
+is_year_leap(4)
+
+
+
+5)Задача «Длина отрезка»
+
+def distance(x1, y1, x2, y2):
+    dst = ((y2 - y1)  2 + (x2 - x1)  2) ** 0.5
+    return dst
+x1 = int(input('x1:'))
+y1 = int(input('y1:'))
+x2 = int(input('x2:'))
+y2 = int(input('y2:'))
+
+res = distance(x2=x2, y2=y2, x1=x1, y1=y1)
+print(res)
+
+
+
+6)Квадрат
+
+def square(side):
+    p = side * 4
+    ploshad = side * side
+    diagonal = 2 * (ploshad)
+    return p, ploshad, diagonal
+
+
+print(square(5))
+
+
+7)Времена года
+
+def season(x):
+    if x == 1:
+        print('зима')
+    elif x == 2:
+        print('зима')
+    elif x == 12:
+        print('зима')
+    elif x == 6:
+        print('лето')
+    elif x == 7:
+        print('лето')
+    elif x == 8:
+        print('лето')
+    elif x == 9:
+        print('осень')
+    elif x == 10:
+        print('осень')
+    elif x == 11:
+        print('осень')
+    elif x == 3:
+        print('весна')
+    elif x == 4:
+        print('весна')
+    elif x == 5:
+        print('весна')
+    else:
+        print('Нет такого месяца')
+season(5)
+
+
+8)Банковский вклад 
+
+a = int(input('a:'))
+years = int(input('years:'))
+def bank(a, years):
+    for i in range(years):
+        a = a * 1.1
+    return a
+print(bank(a, years))
+
+
+
+9)Простые числа
+
+def is_prime(a):
+    if a <= 1:
+        return False
+    if a == 2:
+        return True
+    if a % 2 == 0:
+        return False
+    for i in range(3, int(a ** 0.5) + 2, 2):
+        if a % i == 0:
+            return False
+        else:
+            return True
+is_prime(2)
+
+
+
+10)Правильная дата 
+
